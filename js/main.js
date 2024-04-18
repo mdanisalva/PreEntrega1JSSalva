@@ -36,7 +36,7 @@ do{
     
     alert("Sus asientos van a ser seleccionados aleaotoriamente");
     for (let i=0;i<cantidadPersonas;i++){
-        alert("Su asiento número "+i+1+" es "+asignarAsiento())
+        alert("Su asiento número "+(i+1)+" es "+asignarAsiento())
     }
     respuesta=confirm("Desea seleccionar otro viaje");
 } while (respuesta);
