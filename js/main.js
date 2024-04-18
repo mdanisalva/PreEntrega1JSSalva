@@ -16,7 +16,7 @@ function asignarAsiento() {
 do{
     alert("Bienvenido a Aerolíneas Payaso");
     alert("Por favor elija su destino");
-    opcion = parseInt(prompt("Destinos: \n\n1. Río de Janeiro \n2. Cancún \n3. Salta \n0. ingrese 0 para salir"));
+    opcion = parseInt(prompt("Destinos: \n\n1. Río de Janeiro \n2. Cancún \n3. Salta"));
     cantidadPersonas=parseInt(prompt("Ingrese la cantidad de pasajeros"));
     switch (opcion) {
         case 1:
